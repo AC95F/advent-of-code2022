@@ -1,7 +1,10 @@
 #include <iostream>
+#include "allHeaders.h"
 
 int main()
 {
-    std::cout << "test";
+    //day1Part1();
+    day1Part2();
+
     return 0;
 }

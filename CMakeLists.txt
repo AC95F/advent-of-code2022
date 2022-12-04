@@ -4,7 +4,8 @@ project(advent-of-code2022 VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(advent-of-code2022 main.cpp)
+file(GLOB source_files *.cpp *.h)
+add_executable(advent-of-code2021 ${source_files})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
